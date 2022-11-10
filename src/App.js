@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+import burger from './Images/Burger.svg'
+import logo from './Images/Logo.svg'
+import heart from './Images/heart.svg'
+import message from './Images/message.svg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav className="navbar">
+        <img className="img" src={burger} alt=""></img>
+        <img  className="img2" src= {logo} alt=""></img>
+        <div className="input">
+        <span class="material-symbols-outlined">
+            search
+       </span>
+       <input></input>
+          
+        </div>
+        <div className="dash">
+            <span class="material-symbols-outlined">
+             account_circle
+           </span>
+           <p>Accounts</p>
+        </div>
+
+        <div className="dash dash2">
+        <img className="img" src={message} alt=""></img>
+           <p>Chat</p>
+        </div>
+
+        <div className="dash dash2">
+        <img className="img" src={heart} alt=""></img>
+           <p>My Interest</p>
+        </div>
+      </nav>
     </div>
   );
 }
