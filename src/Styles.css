@@ -1,0 +1,110 @@
+.hero-section{
+    height: 550px;
+    width: 100%;
+    background-color: cadetblue;
+
+}
+
+.hero{
+   height: 450px;
+   width: 100%;
+   background-color: beige;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.location{
+    background-color: blue;
+    width: 25rem;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.enter-locate{
+    background-color: burlywood;
+    height: 320px;
+    width: 19.2rem;
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    
+}
+.enter-locate h2{
+    background-color: blue;
+}
+.enter-locate p{
+    background-color: blue;
+}
+.state{
+    height: 2.3rem;
+    width: 80%;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enugu{
+    background-color: red;
+    width: 16.4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.late{
+    background-color: rosybrown;
+    height:2.5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.enter-locate button{
+   height: 33px;
+   width: 100px;
+   border: none;
+   border-radius: 5px;
+   margin-left: 10.2rem;
+}
+
+.catergory{
+    height: 80px;
+    width: 20rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.catergory p{
+   margin-right: 70px;
+}
+.cat1{
+    height: 50px;
+    width: 80%;
+   background-color: pink; 
+   margin-right: 30px;
+   margin-top: 10px;
+}
+.hero-image{
+    background-color: aquamarine;
+    height: 450px;
+    width: 50rem;
+    position: relative;
+}
+
+.hero-image img{
+   height: 420px;
+   position: absolute;
+   left:  25px;
+   top: 10px;
+}

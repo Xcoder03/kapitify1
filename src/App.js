@@ -3,6 +3,7 @@ import logo from './Images/Logo.svg'
 import heart from './Images/heart.svg'
 import message from './Images/message.svg'
 import './App.css';
+import HeroSection from './Components/HeroSection';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
            <p>My Interest</p>
         </div>
       </nav>
+
+      <HeroSection />
     </div>
   );
 }
