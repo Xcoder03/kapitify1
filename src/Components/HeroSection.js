@@ -15,8 +15,13 @@ const HeroSection = () => {
                         <p>City/LGA</p>
                     </div>
                     <div className="enugu">
-                        <div className="late">Enugu</div>
-                        <div className="late">Enugu</div>
+                        <div className="late">
+                            <span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                            <p>Enugu</p>
+                       </div>
+                        <div className="late"></div>
                     </div>
 
                     <button>Apply</button>
@@ -24,20 +29,37 @@ const HeroSection = () => {
                 </div>
                 <div className="catergory">
                     <div className="cat1">
-                        <span>Category</span>
+                        <span>Select Category</span>
+                        <span class="material-symbols-outlined">
+                            expand_more
+                            </span>
                     </div>
                     <p>Select your preferred catergory</p>
                 </div>
 
             </div>
-            <div className="hero-image">
-            <img className="img" src={banner} alt=""></img>
-            </div>
+            
+            <img className="" src={banner} alt=""></img>
+            
 
         </div>
 
         <div className="location2">
-            <div className="locate"></div>
+            <div className="locate">
+                <span class="material-symbols-outlined">
+                location_searching
+                </span>
+
+                <p>Location</p>
+            </div>
+
+            <div className="locate">
+                <span class="material-symbols-outlined">
+                location_searching
+                </span>
+
+                <p>Location</p>
+            </div>
         </div>
 
     </div>

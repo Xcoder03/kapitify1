@@ -2,20 +2,24 @@
     height: 550px;
     width: 100%;
     background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .hero{
    height: 450px;
    width: 100%;
-   background-color: beige;
+   background-color: rgb(159, 159, 17);
    display: flex;
    justify-content: space-evenly;
    align-items: center;
 }
 .location{
     background-color: blue;
-    width: 25rem;
+    width: 30%;
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -69,7 +73,7 @@
     border-radius: 5px;
 }
 .enter-locate button{
-   height: 33px;
+   height: 30px;
    width: 100px;
    border: none;
    border-radius: 5px;
@@ -83,28 +87,83 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 10px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .catergory p{
    margin-right: 70px;
 }
 .cat1{
-    height: 50px;
+    height: 30px;
     width: 80%;
    background-color: pink; 
    margin-right: 30px;
    margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-.hero-image{
-    background-color: aquamarine;
-    height: 450px;
-    width: 50rem;
-    position: relative;
+.cat1 span{
+    font-weight: bold;
 }
 
-.hero-image img{
-   height: 420px;
-   position: absolute;
-   left:  25px;
-   top: 10px;
+
+.hero img{
+   height: 400px;
+
+}
+
+.location2{
+    background-color: rgb(205, 126, 23);
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.locate{
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locate p{
+    margin-left: 5px;
+}
+
+@media only screen and  (min-width: 300px) and (max-width: 768px) {
+    .location{
+        display: none;
+    }
+    .hero-image{
+        height: 200px;
+        width: 100%;
+        background-color: rgb(147, 222, 135);    
+    }
+    .hero img{
+        height: 200px;
+     
+     }
+ 
+     .hero{
+        height: 230px;
+        width: 100%;
+     
+        background-color: coral;
+     }
+     .hero-section{
+        height: 380px;
+        background-color: red;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+     }
+     .location2{
+        width: 100%;
+        height: 80px;
+       
+     }
 }

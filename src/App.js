@@ -15,7 +15,7 @@ function App() {
         <span class="material-symbols-outlined">
             search
        </span>
-       <input></input>
+       <input type="text" name="" id=""></input>
           
         </div>
         <div className="dash">
