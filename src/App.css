@@ -38,7 +38,7 @@ body{
 }
 .input input{
   height: 100%;
-  width: 19.5rem;
+  width: 19rem;
 
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -51,7 +51,7 @@ body{
 
 .input img{
   height: 16px;
-  margin-left: 5px;
+  margin-left: 9px;
 }
 .img2{
   height: 2rem;
@@ -89,11 +89,11 @@ body{
     position: absolute;
     top: 80px;
     left: 9px;
-     width: 95%;
+     width: 94%;
      background-color: #06335B;
   }
   .input input{
-    width: 93%;
+    width: 92%;
   }
 .dash2{
   display: none;

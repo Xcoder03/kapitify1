@@ -11,7 +11,7 @@ const ThirdCart = () => {
             <h2>Open Offers</h2>
             <img src={pips} alt=""></img>
          </div>
-         <div className="see">
+         <div className="see see3">
             <h2>See All</h2>
             <span class="material-symbols-outlined">
             navigate_next

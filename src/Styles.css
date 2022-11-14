@@ -157,6 +157,24 @@ body{
     border-top-right-radius: 30px;
     background-color: white;
 
+
+}
+.see h2{
+    color: black;
+}
+.see-all span{
+    color:  black;
+}
+.see2 h2{
+    color: white;
+}
+.see2 span {
+    color: white;
+}
+.see3 h2{
+
+        color: white;
+    
 }
 .see-all2{
     border-radius: none;
@@ -185,9 +203,11 @@ body{
 }
 .see span{
     font-size: 25px;
+
 }
 .see-all-h2{
     margin-left: 40px;
+  
 }
 .see:nth-child(1){
     margin-left: 30px;
