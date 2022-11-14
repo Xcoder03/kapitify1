@@ -84,6 +84,9 @@ body{
     justify-content: space-between;
 
   }
+  .input img{
+    margin-left: 7px;
+  }
   
   .input{
     position: absolute;
