@@ -4,6 +4,10 @@ import heart from './Images/heart.svg'
 import message from './Images/message.svg'
 import './App.css';
 import HeroSection from './Components/HeroSection';
+import Cart1 from './Components/Cart1';
+import SecondCart from './Components/SecondCart';
+import ThirdCart from './Components/ThirdCart';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -37,6 +41,10 @@ function App() {
       </nav>
 
       <HeroSection />
+      <Cart1 />
+     <SecondCart />
+    <ThirdCart />
+    <Footer />
     </div>
   );
 }

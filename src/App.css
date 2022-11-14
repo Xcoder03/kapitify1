@@ -1,7 +1,13 @@
+*{
+  padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
 .navbar{
   height: 80px;
   width: 100%;
-  background-color: aqua;
+  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -23,13 +29,14 @@ body{
      padding: 7px 5px;
      
     font-size: 18px;
-     background-color: #06335B;
+
      border-top-left-radius: 5px;
      border-bottom-left-radius: 5px;
      color: white;
+     background-color:  #06335B;
 }
 .input input{
-  height: 90%;
+  height: 100%;
   width: 19.5rem;
 
   border-top-right-radius: 5px;
@@ -46,7 +53,7 @@ body{
 .dash{
   height: 2.5rem;
   width: 10rem;
-  background-color: #06335B;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,9 +82,12 @@ body{
   .input{
     position: absolute;
     top: 80px;
-    left: 130px;
-
- 
+    left: 9px;
+     width: 95%;
+     background-color: #06335B;
+  }
+  .input input{
+    width: 93%;
   }
 .dash2{
   display: none;

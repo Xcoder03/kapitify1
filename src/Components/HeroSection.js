@@ -54,11 +54,11 @@ const HeroSection = () => {
             </div>
 
             <div className="locate">
-                <span class="material-symbols-outlined">
-                location_searching
+                 <span class="material-symbols-outlined">
+                menu
                 </span>
 
-                <p>Location</p>
+                <p>Sort</p>
             </div>
         </div>
 

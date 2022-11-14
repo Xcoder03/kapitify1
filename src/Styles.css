@@ -1,24 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@300&display=swap');
+body{
+    font-family: 'Livvic', sans-serif;
+}
 .hero-section{
-    height: 550px;
+    height: 500px;
     width: 100%;
-    background-color: cadetblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
 
 }
 
 .hero{
    height: 450px;
    width: 100%;
-   background-color: rgb(159, 159, 17);
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
    align-items: center;
 }
 .location{
-    background-color: blue;
     width: 30%;
     height: 450px;
     display: flex;
@@ -26,10 +28,11 @@
     justify-content: space-evenly;
     align-items: flex-start;
     padding-left: 20px;
+    margin-left: 20px;
+
 }
 
 .enter-locate{
-    background-color: burlywood;
     height: 320px;
     width: 19.2rem;
     padding-left: 12px;
@@ -37,40 +40,41 @@
     flex-direction: column;
     justify-content: space-evenly;
     border-radius: 10px;
+    background-color: white;
     
 }
 .enter-locate h2{
-    background-color: blue;
+
 }
 .enter-locate p{
-    background-color: blue;
+   
 }
 .state{
     height: 2.3rem;
     width: 80%;
-  background-color: beige;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .enugu{
-    background-color: red;
     width: 16.4rem;
     height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .late{
-    background-color: rosybrown;
     height:2.5rem;
     width: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    background-color: #F5F5F5;
 }
 .enter-locate button{
    height: 30px;
@@ -82,12 +86,11 @@
 
 .catergory{
     height: 80px;
-    width: 20rem;
-    background-color: aliceblue;
+    width: 19rem;
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -97,7 +100,6 @@
 .cat1{
     height: 30px;
     width: 80%;
-   background-color: pink; 
    margin-right: 30px;
    margin-top: 10px;
    display: flex;
@@ -111,29 +113,288 @@
 
 .hero img{
    height: 400px;
+   margin-right: 20px;
 
 }
 
 .location2{
-    background-color: rgb(205, 126, 23);
     height: 100px;
     width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    display: none;
 }
 .locate{
     height: 50px;
     width: 150px;
-    border: 2px solid black;
+    border: 1px solid #8C8C8C;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .locate p{
     margin-left: 5px;
+    margin-bottom: 5px;
+}
+.cart{
+    background-color: white;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-radius: 30px;
+
+ 
 }
 
+.see-all{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: white;
+
+}
+.see-all2{
+    border-radius: none;
+    background-color: 
+    #06335B;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.see{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10%;
+}
+.see2{
+    width: 15%;
+}
+.see2 img{
+    height: 30px;
+}
+.see span{
+    font-size: 40px;
+}
+.see-all-h2{
+    margin-left: 40px;
+}
+.see:nth-child(1){
+    margin-left: 40px;
+    color: white;
+}
+.see:nth-child(2){
+    margin-right: 40px;
+    color: white;
+}
+
+
+.product{
+
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+.pro{
+    height: 390px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 12px;
+}
+.image{
+    height: 350px;
+}
+
+.second-cart{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: white;
+ 
+}
+.third-cart{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+
+ 
+}
+
+.third-cart .see-all2{
+    border-radius: none;
+}
+.pro3{
+    display:  none;
+}
+
+.foot{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+.swappers{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.popular{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    background-color: white;
+}
+.popular img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.popular-images{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.popular-img{
+    height: 250px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.popular-img img{
+    height: 230px;
+}
+.first-footer{
+        height: 450px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+}
+.first-footer img{
+    margin-left: 45px;
+}
+.features{
+    height: 300px;
+  width: 100%;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   background-color: white;
+}
+
+.product-features{
+    height: 300px;
+    width: 50%;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.main-products{
+    height: 100%;
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.main-product p{
+    font-size: 18px;
+}
+.main-products p{
+    font-size: 18px;
+}
+.main-product h2{
+    font-size: 20px;
+}
+.main-products h2{
+    font-size: 20px;
+}
+
+.main-product{
+    height: 60%;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.stops{
+    width: 100%;    
+    height: 40px;
+}
+.stop{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+.footer{
+
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 @media only screen and  (min-width: 300px) and (max-width: 768px) {
     .location{
         display: none;
@@ -141,29 +402,194 @@
     .hero-image{
         height: 200px;
         width: 100%;
-        background-color: rgb(147, 222, 135);    
+ 
     }
     .hero img{
-        height: 200px;
+        height: 180px;
+        margin-right: 0px;
      
      }
  
      .hero{
         height: 230px;
         width: 100%;
+        justify-content: center;
      
-        background-color: coral;
-     }
-     .hero-section{
-        height: 380px;
-        background-color: red;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
 
      }
+     .hero-section{
+        height: 330px;
+      
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-top: 5px;
+
+     }
+     .locate{
+        height: 45px;
+        width: 130px;
+ 
+     }
      .location2{
-        width: 100%;
+        width: 95%;
         height: 80px;
+        display: flex;
        
      }
+     .cart{
+        margin-top: 30px;
+        height: 300px;
+     }
+     .product{
+        height: 250px;
+
+     }
+     .pro{
+        height: 250px;
+     }
+     .image{
+        height: 210px;
+    }
+    .kill{
+        display: none;
+    }
+    .see-all{
+        justify-content: space-between;
+    }
+   
+    .see-all h2{
+        margin-left: 20px;
+    }
+    .see h2{
+        margin-left: 0px;
+        
+    }
+    .see-all p{
+        margin-right: 30px;
+    }
+    
+
+.see:nth-child(1) {
+     margin-left: 25px; 
+     color: white;
+}
+.see:nth-child(2) {
+    margin-right: 25px; 
+    color: white;
+}
+
+    .second-cart{
+     
+        height: 550px;
+    }
+    .pro2{
+        height: 500px;
+    }
+   .pro3{
+    display: flex;
+
+    height: 400px;
+   }
+   .popular{
+    margin-top: 10px;
+   }
+   .popular-img img{
+    height: 100px;
+   }
+   .popular-img{
+    height: 50%;
+    width: 100%;
+   }
+   .popular-images{
+    flex-direction: column;
+   }
+   .first-footer{
+    height: 680px;
+   }
+   .first-footer img{
+    margin-left: 25px;
+   }
+   .foot{
+    height: 1000px;
+   }
+   .features{
+    height: 520px;
+    flex-direction: column;
+   }
+   .product-features{
+    height: 60%;
+    width: 100%;
+    margin-left: 0px;
+   }
+   .main-product{
+    height: 40%;
+    width: 100%;
+    padding-left: 20px;
+   }
+   .main-products{
+    height: 100%;
+    width: 50%;
+    padding-left: 25px;
+   }
+   .main-products:nth-child(2){
+    align-items: flex-end;
+    padding-right: 25px;
+   }
+   .stop{
+    align-items: flex-end;
+   
+   }
+   .third-cart{
+    margin-top: 20px;
+    height: 540px;
+   }
+
+   .see{
+
+    height: 50px;
+   
+    width: 30%;
+}
+.see h2{
+    font-size: 15px;
+}
+.see2{
+    width: 40%;
+
+}
+.see-all2{
+    margin-top: 10px;
+    justify-content: space-between;
+
+
+}
+
+
+
+}
+
+
+@media only screen and  (min-width: 760px) and (max-width: 1200px) {
+    .image{
+        height: 220px;
+    }
+    .product{
+        height: 300px;
+    }
+    .pro{
+        height: 250px;
+    }
+    .cart{
+        height: 400px;
+        margin-top: 30px;
+    }
+    .popular-img img{
+        height: 200px;
+    }
+    .hero img{
+        height: 300px;
+    }
+    .location{
+        width: 40%;
+    }
 }
