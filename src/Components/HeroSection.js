@@ -1,5 +1,6 @@
 import React from 'react'
 import banner from '../Images/banner.svg'
+import gps from '../Images/Gps_fixed.svg'
 import '../Styles.css';
 
 const HeroSection = () => {
@@ -46,9 +47,7 @@ const HeroSection = () => {
 
         <div className="location2">
             <div className="locate">
-                <span class="material-symbols-outlined">
-                location_searching
-                </span>
+            <img className="" src={gps} alt=""></img>
 
                 <p>Location</p>
             </div>

@@ -2,6 +2,8 @@ import burger from './Images/Burger.svg'
 import logo from './Images/Logo.svg'
 import heart from './Images/heart.svg'
 import message from './Images/message.svg'
+import user_circle from './Images/User_cicrle.svg'
+import vector from './Images/vector.svg'
 import './App.css';
 import HeroSection from './Components/HeroSection';
 import Cart1 from './Components/Cart1';
@@ -16,16 +18,12 @@ function App() {
         <img className="img" src={burger} alt=""></img>
         <img  className="img2" src= {logo} alt=""></img>
         <div className="input">
-        <span class="material-symbols-outlined">
-            search
-       </span>
+        <img   src= {vector} alt=""></img>
        <input type="text" name="" id=""></input>
           
         </div>
         <div className="dash">
-            <span class="material-symbols-outlined">
-             account_circle
-           </span>
+        <img  src={user_circle} alt=""></img>
            <p>Accounts</p>
         </div>
 

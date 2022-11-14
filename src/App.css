@@ -20,9 +20,10 @@ body{
   width: 25%;
   background-color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   border-radius: 5px;
+  background-color: #06335B;;
 
 }
 .input span{
@@ -47,6 +48,11 @@ body{
   border-top: 1px solid #CACACA;
   border-left: none;
 }
+
+.input img{
+  height: 16px;
+  margin-left: 5px;
+}
 .img2{
   height: 2rem;
 }
@@ -59,9 +65,9 @@ body{
   align-items: center;
 }
 
-.dash span{
+.dash img{
 
-  font-size: 30px;
+  height: 30px;
 }
 .dash p{
   font-size: 20px;
