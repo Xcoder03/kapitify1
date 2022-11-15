@@ -18,8 +18,11 @@ function App() {
         <img className="img" src={burger} alt=""></img>
         <img  className="img2" src= {logo} alt=""></img>
         <div className="input">
-        <img   src= {vector} alt=""></img>
-       <input type="text" name="" id=""></input>
+          <div className="box">
+          <img   src= {vector} alt=""></img>
+          </div>
+   
+        <input type="text" name="" id="" placeholder='Find Item'></input>
           
         </div>
         <div className="dash">

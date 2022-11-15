@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Livvic:wght@300&display=swap');
+@font-face {
+    font-family: "brfirma";
+    src: url("./webfontkit/br_firma_regular-webfont.woff");
+}
 body{
-    font-family: 'Livvic', sans-serif;
+    font-family: 'brfirma', sans-serif;
 }
 .hero-section{
     height: 500px;
@@ -552,9 +556,11 @@ body{
    }
    .first-footer{
     height: 680px;
+    margin-top: 30px;
    }
    .first-footer img{
     margin-left: 25px;
+    margin-top: 10px;
    }
    .foot{
     height: 1000px;
