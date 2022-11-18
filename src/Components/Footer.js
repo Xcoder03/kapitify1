@@ -44,6 +44,7 @@ const Footer = () => {
                     <p>Browse Categories</p>
                     <div className="stops">
                         <p>Kapitify Pro</p>
+                        <div>Coming soon</div>
                     </div>
                 </div>
 
